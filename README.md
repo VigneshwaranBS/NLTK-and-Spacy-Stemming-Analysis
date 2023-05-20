@@ -28,6 +28,15 @@ pip install nltk
 pip install spacy
 ```
 
+- Additionally, you will need to download the NLTK data and spaCy language model. Run the following commands to download them:
+
+```
+python -m nltk.downloader punkt
+```
+```
+python -m spacy download en
+```
+
 Additionally, you will need to download the relevant language models for spaCy. Refer to the spaCy documentation for instructions on downloading the models.
 
 ## Running the Analysis
