@@ -17,8 +17,9 @@ git clone https://github.com/VigneshwaranBS/NLTK-and-Spacy-Stemming-Analysis.git
 The project has the following dependencies:
 
 - Python 3.8
--NLTK
+- NLTK
 - spaCy
+- numpy
 You can install NLTK and spaCy using pip:
 
 ```
@@ -26,6 +27,9 @@ pip install nltk
 ```
 ```
 pip install spacy
+```
+```
+pip install numpy
 ```
 
 - Additionally, you will need to download the NLTK data and spaCy language model. Run the following commands to download them:
